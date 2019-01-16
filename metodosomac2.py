@@ -18,3 +18,5 @@ args_globals = globals()
 if __name__ == '__main__':
     resulta = soma(2, 3)
     print(resulta)
+    resulta = soma(2, 3, 4)
+    print(resulta)
