@@ -1,0 +1,30 @@
+# Crie uma classe que modele um retangulo:
+
+Atributos: LadoA, LadoB (ou Comprimento e Largura, ou Base e Altura, a escolher)
+Métodos: Mudar valor dos lados, Retornar valor dos lados, calcular Área e calcular Perímetro;
+Crie um programa que utilize esta classe. Ele deve pedir ao usuário que informe as medida des de um local.
+Depois, deve criar um objeto com as medidas e calcular a quantidade de pisos e de rodapés necessárias para o local.
+
+class Quadrado:
+
+    def __init__(self, lado):
+        self.lado = lado
+
+    def mostrar_lado(self):
+        print(self.mostrar_lado)
+
+    def trocar_lado(self,outro_lado):
+        self.lado = outro_lado
+
+    def calcular_area(self):
+        print(self.lado**2)
+
+quadrado = Quadrado(10)
+
+print(quadrado.lado)
+
+
+quadrado.trocar_lado(7)
+print(quadrado.lado)
+
+quadrado.calcular_area()
